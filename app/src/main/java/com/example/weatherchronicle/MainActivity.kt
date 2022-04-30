@@ -10,7 +10,7 @@ import retrofit2.Response
 import javax.security.auth.callback.Callback
 
 class MainActivity : AppCompatActivity() {
-    lateinit var  binding: ActivityMainBinding
+    //lateinit var  binding: ActivityMainBinding
 
     private lateinit var recyclerView: RecyclerView
 

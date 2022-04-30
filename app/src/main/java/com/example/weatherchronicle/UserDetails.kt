@@ -17,6 +17,7 @@ class UserDetails:AppCompatActivity() {
         val namevalue = extract?.get("name")
         val gendervalue = extract?.get("gender")
         val locationvalue=extract?.get("location")
+
         name.text = namevalue.toString()
         gender.text = gendervalue.toString()
 

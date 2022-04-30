@@ -27,13 +27,16 @@ class ItemAdapter(private val itemList: ArrayList<Int>, private val context:Cont
     }
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
+        val item =itemList[position]
         holder.imageView.setImageResource(itemList[position])
-        val name = "Kasi"
+       // holder.textView.text=item.Name
+
         holder.imageView.setOnClickListener {
             val intend = Intent(context,UserDetails::class.java)
-            intend.putExtra("name",name)
-            intend.putExtra("gender","Female")
-            intend.putExtra("location","Australia")
+
+            intend.putExtra("name","")
+            intend.putExtra("gender","")
+            intend.putExtra("location","")
             context.startActivity(intend)
         }
     }

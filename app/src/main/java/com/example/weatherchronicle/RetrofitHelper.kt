@@ -18,7 +18,7 @@ object RetrofitHelper {
 //        return retrofit.create(service)
 //    }
 
-    val baseUrl = "https://randomuser.me/?results=10"
+    val baseUrl = "https://randomuser.me/api/?results=5000"
 
 
 
